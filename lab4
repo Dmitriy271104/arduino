@@ -51,6 +51,5 @@ void loop() {
 
   if (key && millis() - lastTime > DEBOUNCE) {
     Serial.println(key);
-    lastKey = 0;                 // чтобы не печатать повторно
   }
 }
